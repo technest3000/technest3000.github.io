@@ -1,0 +1,50 @@
+{
+  "uid": "user-5",
+  "template_id": "template-3",
+  "title": "Mohamad Aboud",
+  "about": "I specialize in building scalable, reliable, and efficient systems.",
+  "phone": "+962 786697846",
+  "email": "mohamadaboud663@gmail.com",
+  "logo_url": "https://avatars.githubusercontent.com/u/103625927?v=4",
+  "header_url": "https://images.pexels.com/photos/1938353/pexels-photo-1938353.jpeg?cs=srgb&dl=pexels-tobiasbjorkli-1938353.jpg&fm=jpg",
+  "social_media_links": {
+    "template_id": "social-v3",
+    "links": [
+      {
+        "url": "https://www.facebook.com/mohamad.aboud.94/"
+      },
+      {
+        "url": "https://instagram.com/mohamad.aboud.94"
+      },
+      {
+        "url": "https://wa.me/+962786697846"
+      },
+      {
+        "url": "https://www.linkedin.com/in/mohamad-aboud/"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UC1234567890"
+      },
+      {
+        "url": "https://twitter.com/mohamad_aboud"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "default",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962786697846",
+        "style": "primary"
+      },
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Message",
+        "url": "mailto:mohamadaboud663@gmail.com",
+        "style": "secondary"
+      }
+    ]
+  }
+}

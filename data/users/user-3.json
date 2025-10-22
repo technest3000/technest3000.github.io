@@ -1,0 +1,54 @@
+{
+  "uid": "user-3",
+  "template_id": "template-2",
+  "title": "Mohamad Aboud",
+  "about": "Full Stack Developer | DevOps | Cloud",
+  "phone": "+962 786697846",
+  "email": "mohamadaboud663@gmail.com",
+  "logo_url": "https://avatars.githubusercontent.com/u/103625927?v=4",
+  "header_url": "https://lipsum.app/id/24/1600x900",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/mohamad.aboud.94/"
+      },
+      {
+        "url": "https://instagram.com/mohamad.aboud.94"
+      },
+      {
+        "url": "https://wa.me/+962786697846"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962786697846",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-brands fa-github",
+        "text": "GitHub Profile",
+        "url": "https://github.com/mohamadaboud",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://goo.gl/maps/example",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Message",
+        "url": "mailto:mohamadaboud663@gmail.com",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  }
+}

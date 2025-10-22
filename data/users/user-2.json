@@ -1,0 +1,40 @@
+{
+  "uid": "user-2",
+  "template_id": "template-1-colors",
+  "title": "Mohamad Aboud",
+  "about": "Full Stack Developer | DevOps | Cloud",
+  "phone": "+962 786697846",
+  "email": "mohamadaboud663@gmail.com",
+  "logo_url": "https://avatars.githubusercontent.com/u/103625927?v=4",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/mohamad.aboud.94/"
+      },
+      {
+        "url": "https://instagram.com/mohamad.aboud.94"
+      },
+      {
+        "url": "https://wa.me/+962786697846"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "default",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Message",
+        "url": "mailto:mohamadaboud663@gmail.com",
+        "style": "primary"
+      },
+      {
+        "iconClass": "fa-solid fa-phone",
+        "text": "Call",
+        "url": "tel:+962786697846",
+        "style": "secondary"
+      }
+    ]
+  }
+}
