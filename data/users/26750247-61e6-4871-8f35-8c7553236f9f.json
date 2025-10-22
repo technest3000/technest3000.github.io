@@ -1,0 +1,54 @@
+{
+  "uid": "26750247-61e6-4871-8f35-8c7553236f9f",
+  "template_id": "template-2-no-bg",
+  "title": "Nidal Alfaqih",
+  "about": "Jordan, Amman, downtown quraysh street building No.71",
+  "phone": "+962 796464100",
+  "logo_url": "assets/images/26750247-61e6-4871-8f35-8c7553236f9f.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.instagram.com/proud.perfumes?igsh=aTdwbGF1YzFyMWI5"
+      },
+      {
+        "url": "https://wa.me/+962796464100"
+      },
+      {
+        "url": "mailto:proud.perfumejo@gmail.com",
+        "platform": "email",
+        "iconClass": "fa-solid fa-envelope"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962796464100",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Message",
+        "url": "https://wa.me/+962796464100?text=Hi!",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://www.google.com/maps?q=31.9478054046631,35.9345321655273",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-globe",
+        "text": "Visit Website",
+        "url": "http://proud-perfume.com/",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  }
+}
