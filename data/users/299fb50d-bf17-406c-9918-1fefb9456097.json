@@ -1,0 +1,40 @@
+{
+  "uid": "299fb50d-bf17-406c-9918-1fefb9456097",
+  "template_id": "template-1-colors",
+  "title": "JAFRA.VIP",
+  "about": "A shop offering original shoes at best prices with delivery service and payment by cash or Visa since 2009",
+  "phone": "+962 7 9902 2819",
+  "email": "",
+  "logo_url": "assets/images/299fb50d-bf17-406c-9918-1fefb9456097.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/1D676BzGU9/?mibextid=wwXIfr"
+      },
+      {
+        "url": "https://www.instagram.com/jafra_vipp1?igsh=ODlyYTYxcTh3eG1p"
+      },
+      {
+        "url": "https://wa.me/+962799022819"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "default",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-phone",
+        "text": "Call Me",
+        "url": "tel:+962799022819",
+        "style": "primary"
+      },
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Message",
+        "url": "sms:+962799022819?body=Hi!%20I%20have%20a%20question.",
+        "style": "secondary"
+      }
+    ]
+  }
+}
