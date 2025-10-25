@@ -1,0 +1,59 @@
+{
+  "uid": "bd1a2959-a30c-4afb-a57f-3819c9062b9e",
+  "template_id": "template-2",
+  "title": "Brand Mix",
+  "about": "Latest models and the strongest shoe brands and sportswear clothing.",
+  "phone": "+962 7 9940 8400",
+  "logo_url": "assets/images/bd1a2959-a30c-4afb-a57f-3819c9062b9e-1.jpg",
+  "header_url": "assets/images/bd1a2959-a30c-4afb-a57f-3819c9062b9e-2.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/1Ly8gcLUto/"
+      },
+      {
+        "url": "https://www.instagram.com/brand_mix10?igsh=cGp0NW42emxnZG1w"
+      },
+      {
+        "url": "https://www.tiktok.com/@brandmix0?_t=ZS-90lKDAh5YKg&_r=1"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-phone",
+        "text": "Call Now",
+        "url": "tel:+962798987075",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-brands fa-whatsapp",
+        "text": "WhatsApp Message",
+        "url": "https://wa.me/+962799408400",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-star",
+        "text": "Review Us",
+        "url": "https://www.google.com/search?sca_esv=dc9ce39bf885719d&hl=ar&gl=jo&sxsrf=AE3TifPioCcTC88VvWm2L9fzAnY1Yb6wuA:1761392558499&q=%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA+%D8%AD%D9%88%D9%84+brand+mix+%D8%B9%D9%85%D9%91%D8%A7%D9%86&uds=AOm0WdFO4oILVku7CNCk0r_TR_x7-qQbGXDoZ57T7EHgV1XXWYRI3Wyuc4RMFgVjj8F_FKPlYmIZMjSuhdn6Ru-6WagipYkvfHmGwYRyiIEboI62qDUEYkbDDHV7qYZUX-i9GMQ_EXl2eJyad2ShtKZPWLaDOcQv8FjwDXCJ0KBOFSupFIa8T2z4It4OeGzUShUk4M5DOLYR0NZdVKPrFAk1wyEBngsY1ll2QEG5NZLyPXKRkUcwEjdhUCUuakm26os8ZN77fDhBMDaouNrG5dI2akb8T_YUsfRbF1z5L_qJGJkP2Uw_yx_4ePqjW0xbtp-bZ5tOAa_-QY8iQYjZ-BPSh5jA1T9aFQ&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E2LusU59SJDfws52KBpRjGjrW-4h1f1bbdcFJd6gAWs9Rh-N_rQh_e9WWD-zkQ9kNSWuA_YqmJ7HCv1eKyMlQU5Kh-0STz3GZjrAi8ts-2oxhijzbHOjqBHDV5uO2IWrdieZp14%3D&sa=X&ved=2ahUKEwjPr4nOor-QAxUvUaQEHeqHOTwQk8gLegQIGRAB&ictx=1&stq=1&cs=1&lei=rrf8aM-gHq-ikdUP6o_m4QM#ebo=1",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://maps.app.goo.gl/XfmjnG6dNtU3Nvtm7",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962799408400",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  }
+}
