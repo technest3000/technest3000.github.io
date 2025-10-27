@@ -2,21 +2,21 @@
 
 // Templates dictionary
 const templates = {
-  default: ({ url, iconClass, colorClass }) => `
+  default: ({ url, iconClass, colorClass, name }) => `
     <a href="${url}" target="_blank" class="hover:opacity-80 transition mx-1 text-xl ${colorClass}">
       <i class="${iconClass}"></i>
     </a>
   `,
 
-  'social-v2': ({ url, iconClass, colorClass, platform }) => `
+  'social-v2': ({ url, iconClass, colorClass, name }) => `
     <a href="${url}" target="_blank"
       class="flex flex-col items-center gap-1 w-20 py-3 bg-white rounded-lg shadow hover:shadow-md transition">
       <i class="${iconClass} ${colorClass} text-xl"></i>
-      <span class="text-xs font-semibold text-gray-700 capitalize">${platform}</span>
+      <span class="text-xs font-semibold text-gray-700 capitalize">${name}</span>
     </a>
   `,
 
-  'social-v3': ({ url, iconClass, colorClass, platform }) => {
+  'social-v3': ({ url, iconClass, colorClass, name }) => {
     const hoverClass = colorClass.replace(/^text-/, 'hover:text-');
     return `
       <a href="${url}" target="_blank" class="flex items-center justify-center gap-2 px-4 py-3 bg-white/80 rounded-xl shadow-md backdrop-blur-sm hover:shadow-lg transition-transform transform hover:scale-105">
@@ -71,13 +71,15 @@ class SocialIcons {
     return this.links.map(link => {
       // Determine platform
       const platform = link.platform ? link.platform.toLowerCase() : this.getPlatform(link.url);
+      // Get the name if provided, else derive from platform
+      const name = link.name || platform;
       // Use icon from JSON if it exists, otherwise generate
       const iconClass = link.iconClass || this.getIcon(platform);
       const colorClass = this.getColor(platform);
 
       // Pick the template from the dictionary
       const template = templates[this.template_id] || templates['default'];
-      return template({ url: link.url, iconClass, colorClass, platform });
+      return template({ url: link.url, iconClass, colorClass, name });
     }).join('');
   }
 }
