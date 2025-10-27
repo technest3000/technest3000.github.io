@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #2463aa;
+    --primary-dark-color: #1e4e8a;
+    --primary-light-color: #3a7bd5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#popup {
+    transition: opacity 0.3s ease-in-out;
+}
