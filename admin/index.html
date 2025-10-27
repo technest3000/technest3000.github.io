@@ -20,10 +20,10 @@
     <div id="dashboard-content">
     <div class="flex min-h-screen">
         <!-- Sidebar -->
-        <aside class="w-60 bg-[var(--primary-color)] text-white flex flex-col">
+        <aside id="sidebar" class="w-16 lg:w-60 bg-[var(--primary-color)] text-white flex-shrink-0 hidden lg:flex flex-col z-50">
             <div class="flex items-center justify-center h-20 border-b border-[var(--primary-dark-color)]">
                 <img src="../assets/images/logo.ico" alt="Logo" class="h-10 w-10 mr-2" />
-                <span class="text-xl font-bold">TechNest <sup> <i class="fa fa-star"></i></sup>
+                <span class="text-xl font-bold hidden lg:inline">TechNest <sup> <i class="fa fa-star"></i></sup>
                 </span>
             </div>
 
@@ -33,7 +33,7 @@
                         <a href="index.html"
                             class="flex items-center px-3 py-2 rounded hover:bg-[var(--primary-dark-color)]">
                             <i class="fas fa-tachometer-alt w-5"></i>
-                            <span class="ml-3">Dashboard</span>
+                            <span class="ml-3 hidden lg:inline">Dashboard</span>
                         </a>
                     </li>
 
@@ -45,16 +45,16 @@
                     class="sidebar-card hidden lg:flex flex-col items-center bg-gray-900 bg-opacity-20 shadow rounded p-4 mt-6">
                     <img class="sidebar-card-illustration mb-2 h-16" src="img/undraw_rocket.svg" alt="...">
                     <p class="text-center mb-2 font-bold text-gray-400">TechNest - The future is in your hands!</p>
-                    <a class="btn bg-green-500 text-white px-3 py-1 rounded text-sm mt-1" href="#">Call!</a>
+                    <a class="btn bg-green-500 text-white px-3 py-1 rounded text-sm mt-1" href="tel:+962782140003">Call!</a>
                 </div>
             </nav>
         </aside>
 
         <!-- Main Content -->
-        <div class="flex-1 flex flex-col">
+        <div id="content-wrapper" class="flex-1 flex flex-col">
             <!-- Topbar -->
             <header class="flex items-center justify-between bg-white shadow px-6 h-16">
-                <button class="md:hidden text-gray-700">
+                <button id="sidebar-toggle" class="md:hidden text-gray-700">
                     <i class="fa fa-bars"></i>
                 </button>
                 
@@ -89,7 +89,7 @@
                         Dashboard
                     </h1>
                     <button id="generate-user-btn"
-                        class="hidden sm:inline-flex items-center px-3 py-1.5 bg-[var(--primary-color)] hover:bg-[var(--primary-dark-color)] text-white text-sm rounded shadow-sm">
+                        class="sm:inline-flex items-center px-3 py-1.5 bg-[var(--primary-color)] hover:bg-[var(--primary-dark-color)] text-white text-sm rounded shadow-sm">
                         <i class="fas fa-download fa-sm mr-2 text-white/90"></i>
                         Generate Report
                     </button>

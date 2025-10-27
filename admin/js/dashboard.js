@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         viewSelect: document.getElementById('view-select'),
         scrollToTopBtn: document.querySelector('.scroll-to-top'),
         dashboardContent: document.getElementById('dashboard-content'),
+        sidebar: document.getElementById('sidebar'),
+        sidebarToggle: document.getElementById('sidebar-toggle'),
     };
 
     // -----------------------------
@@ -95,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     // -----------------------------
-    // Populate template select
+    // Populate template select dropdown
     // -----------------------------
     function populateTemplateSelect() {
         templates.forEach((template, index) => {
@@ -177,14 +179,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     // -----------------------------
     function setupEventListeners() {
         DOM.viewSelect.addEventListener('change', e => updateChart(e.target.value));
+
         DOM.generateUserBtn.addEventListener('click', () => DOM.popup.classList.remove('hidden'));
         DOM.cancelBtn.addEventListener('click', closePopup);
         DOM.closePopupBtn.addEventListener('click', closePopup);
+
         DOM.copyJsonBtn.addEventListener('click', copyJsonToClipboard);
+
         DOM.confirmBtn.addEventListener('click', generateUser);
 
+        // Scroll to Top Button
         window.addEventListener('scroll', toggleScrollToTopButton);
         DOM.scrollToTopBtn.addEventListener('click', scrollToTop);
+
+        // Sidebar Toggle
+        DOM.sidebarToggle.addEventListener('click', toggleSidebar);
     }
 
     function closePopup() {
@@ -230,6 +239,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function scrollToTop() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleSidebar() {
+        DOM.sidebar.classList.toggle('hidden');
     }
 
     // -----------------------------
