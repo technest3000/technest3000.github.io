@@ -1,0 +1,48 @@
+{
+  "uid": "89bfea59-1e17-4e1e-9724-f441b2c3f2e5",
+  "template_id": "template-2-no-bg",
+  "title": "Antaki",
+  "about": "Timeless elegance in every handcrafted piece.",
+  "phone": "+962 795158115",
+  "logo_url": "assets/images/89bfea59-1e17-4e1e-9724-f441b2c3f2e5.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.instagram.com/antaki_jewellery?igsh=dmpvanl1YWU2eW01",
+        "name": "Bussiness"
+      },
+      {
+        "url": "https://wa.me/+962795158115"
+      },
+      {
+        "url": "https://www.instagram.com/samerantaki?igsh=MXZ6eWp5am1td2hxeA==",
+        "name": "Personal"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-brands fa-whatsapp",
+        "text": "WhatsApp Message",
+        "url": "https://wa.me/+962795158115?text=Hi!",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Mobile Message",
+        "url": "sms:+962795158115?body=Hi!%20I%20have%20a%20question.",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962795158115",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  }
+}
