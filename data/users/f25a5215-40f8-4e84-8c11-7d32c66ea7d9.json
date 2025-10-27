@@ -1,0 +1,54 @@
+{
+  "uid": "f25a5215-40f8-4e84-8c11-7d32c66ea7d9",
+  "template_id": "template-2",
+  "title": "Al-Yttawi Outlet",
+  "about": "Al-Yttawi Shoe Store offers a diverse selection of men's, women's, and children's footwear.",
+  "phone": "+962 798741160",
+  "email": "mohamadaboud663@gmail.com",
+  "logo_url": "assets/images/f25a5215-40f8-4e84-8c11-7d32c66ea7d9-1.jpg",
+  "header_url": "assets/images/f25a5215-40f8-4e84-8c11-7d32c66ea7d9-2.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.instagram.com/alyttawi_outlet?igsh=bW85YjVmMXh5c3l3"
+      },
+      {
+        "url": "https://www.facebook.com/share/1YJ2aoGW4s/"
+      },
+      {
+        "url": "https://wa.me/+962798741160"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-brands fa-whatsapp",
+        "text": "WhatsApp Message",
+        "url": "https://wa.me/+962798741160?text=Hi!",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Mobile Message",
+        "url": "sms:+962798741160?body=Hi!%20I%20have%20a%20question.",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://maps.app.goo.gl/ht374N46Ts7rkFJy9",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962798741160",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  }
+}
