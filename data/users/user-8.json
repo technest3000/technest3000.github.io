@@ -1,0 +1,41 @@
+{
+  "uid": "user-8",
+  "template_id": "template-5",
+  "title": "Mohamad Aboud",
+  "about": "I specialize in building scalable, reliable, and efficient systems.",
+  "logo_url": "https://avatars.githubusercontent.com/u/103625927?v=4",
+  "social_media_links": {
+    "template_id": "social-v4",
+    "links": [
+      {
+        "url": "https://www.facebook.com/mohamad.aboud.94/"
+      },
+      {
+        "url": "https://instagram.com/mohamad.aboud.94"
+      },
+      {
+        "url": "https://wa.me/+962786697846"
+      },
+      {
+        "url": "https://www.linkedin.com/in/mohamad-aboud/"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v4",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962786697846",
+        "style": "primary"
+      },
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Message",
+        "url": "mailto:mohamadaboud663@gmail.com",
+        "style": "secondary"
+      }
+    ]
+  }
+}

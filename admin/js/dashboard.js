@@ -44,7 +44,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         'template-2.html',
         'template-3.html',
         'template-4.html',
-        'template-4-dark.html'
+        'template-4-dark.html',
+        'template-5.html',
+        'template-5-dark.html'
     ];
     
     // -----------------------------
