@@ -1,0 +1,51 @@
+{
+  "uid": "275c4965-39bc-4166-9832-d72709a3eece",
+  "template_id": "template-2-no-bg",
+  "title": "ABU ZAID",
+  "about": "Mobile store And more",
+  "phone": "+962 796061842",
+  "email": "mohamadaboud663@gmail.com",
+  "logo_url": "assets/images/275c4965-39bc-4166-9832-d72709a3eece.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/1Bi19aDAmN/"
+      },
+      {
+        "url": "https://wa.me/+962796061842"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-brands fa-whatsapp",
+        "text": "WhatsApp Message",
+        "url": "https://wa.me/+962796061842?text=Hi!",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-star",
+        "text": "Review Us",
+        "url": "https://www.google.com/search?sca_esv=5f8ad457132af750&hl=ar-JO&sxsrf=AE3TifN9VHvECEA9opgb2aZiZfSUs_rNUg:1761577458503&q=%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA+%D8%AD%D9%88%D9%84+%D8%A7%D8%A8%D9%88+%D8%B2%D9%8A%D8%AF+%D9%85%D9%88%D8%A8%D8%A7%D9%8A%D9%84&uds=AOm0WdFCsOCFHxLrDkeCYTvHuc_criWIxxkdOMiPzUGZPlPiK21hCOpIWNxjm70sgF4dWD8kZCTIMlzTMNrp_ZKi9TTtP_i7oZEQ0U_ioGdCl87krCQe0EpT-ieEZAAzOCfU38Du4tULqnv4nJCQ4u0PL5UQubRgrq2jSwJ52DHov51edcFcmYHf6xbQiUfKGA8dnCPHx7_6vTkDrZzjetRQBnGyr1woh_lo2XfpHtsVD9_5LXvCdKQuojDj8uIQlNGIxM1NikHnoEAtLKZWuDlGLCehoMZSgoEVukoZVkoTu1T8vakEjE5gvvPPu8WZ7hVM2f9SEzphSl75EVHxcItkqfXknz838BtnNuI2at2Q6IxfhpC2fgboh-Ba-rhGjgJdpRS0Tb2LmiSVAkafIKwkfYl2WtFWGPAahO5dhqtRyRmy_EwudTmKI1JnYB3xbgaeNd79vzaPzN6G47w0bxeZi9U8Lxw15DP3m-hbQYe_SEwMetvrrPI3YZqdQMd52D1wN1hjfkR3dKbi1XteoluRZ5sWis4AaAXffV2gfn_eXdBrbs2kXek&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EyqmuZQrbOtVtt7SJF9nbTdJsyyfBZho0k77kO31L2eWJyhlP40ZMErHSkw3KF_UXhB6rr2txa7BzEreHz6oas_Fo4iBOx2Dl0uaacPQ5PlddOn_B8jF0q463UpErsUnN_6moRY%3D&sa=X&ved=2ahUKEwir-KG108SQAxU1VUEAHeO4NYwQk8gLegQIHBAB&ictx=1&biw=360&bih=688&dpr=3#ebo=1",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://maps.app.goo.gl/EzV6isbSTsd6QaJPA",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962796061842",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  },
+  "createdAt": "2025-10-27T15:03:15.923Z"
+}
