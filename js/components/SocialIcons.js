@@ -22,6 +22,13 @@ const templates = {
       <a href="${url}" target="_blank" class="flex items-center justify-center gap-2 px-4 py-3 bg-white/80 rounded-xl shadow-md backdrop-blur-sm hover:shadow-lg transition-transform transform hover:scale-105">
         <i class="${iconClass} text-xl text-gray-500 ${hoverClass}"></i>
       </a>
+    `},
+
+  'social-v4': ({ url, iconClass, colorClass, name }) => {
+    return `
+      <a href="${url}" target="_blank" class="p-3 rounded-full bg-gray-700/40 backdrop-blur-sm shadow-lg transition-all duration-300 transform hover:scale-110 flex items-center justify-center group" title="${name}">
+        <i class="${iconClass} text-gray-200 text-xl group-hover:${colorClass} transition-all duration-300"></i>
+      </a>
     `;
   }
 };

@@ -41,6 +41,22 @@ const templates = {
       </a>
     `;
   },
+
+  'button-v4': ({ url, iconClass, text, style = 'primary', center = true }) => {
+    // Determine classes based on style type
+    const baseClass = style === 'primary'
+      ? 'bg-gradient-to-r from-gray-600 to-gray-500 text-white dark:text-gray-200 hover:from-gray-500 hover:to-gray-400 shadow-md hover:shadow-lg'
+      : 'bg-transparent border border-gray-500 text-gray-900 dark:text-gray-400 hover:bg-gray-700/30 hover:border-gray-400 backdrop-blur-sm shadow-md hover:shadow-lg';
+    
+    const centerClass = center ? 'justify-center' : 'justify-start';
+    
+    return `
+      <a href="${url}" class="flex items-center ${centerClass} gap-2 px-6 py-2.5 ${baseClass} rounded-full transition-all duration-300 transform hover:scale-105">
+        ${iconClass ? `<i class="${iconClass} text-lg"></i>` : ''}
+        <span class="font-medium text-sm text-gray-900 dark:text-gray-400">${text}</span>
+      </a>
+    `;
+  }
 };
 
 
