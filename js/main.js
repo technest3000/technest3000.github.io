@@ -110,6 +110,9 @@ function renderTemplate(userData) {
     });
     footerContainer.innerHTML = footer.render();
   }
+
+  // Change the document title to "TechPort - <title> || <username>"
+  document.title = `TechPort - ${userData.title || userData.username}`;
 }
 
 
