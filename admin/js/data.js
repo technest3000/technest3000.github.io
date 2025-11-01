@@ -4,7 +4,11 @@ const userFiles = [
     '89bfea59-1e17-4e1e-9724-f441b2c3f2e5.json',
     'bd1a2959-a30c-4afb-a57f-3819c9062b9e.json',
     'f25a5215-40f8-4e84-8c11-7d32c66ea7d9.json',
-    '275c4965-39bc-4166-9832-d72709a3eece.json'
+    '275c4965-39bc-4166-9832-d72709a3eece.json',
+    '784a45e3-fe0c-4650-89a6-0172ec6b40a4.json',
+    '6db0f4eb-9738-473e-ab72-3787177937dc.json',
+    '9514ca22-f32e-41be-9586-686fc82b36d8.json',
+    'b237358b-84c1-48e4-8464-069e0855677d.json'
 ];
 
 const userTemplateFiles = [
