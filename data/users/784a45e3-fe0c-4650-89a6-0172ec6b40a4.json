@@ -1,0 +1,53 @@
+{
+  "uid": "784a45e3-fe0c-4650-89a6-0172ec6b40a4",
+  "template_id": "template-2-no-bg",
+  "title": "AWAISHA Mobile",
+  "about": "Selling all mobile devices at the best prices — accessories, recharge cards, and maintenance services.",
+  "phone": "+962 788600090",
+  "logo_url": "assets/images/784a45e3-fe0c-4650-89a6-0172ec6b40a4.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/1A3zsrzVpQ/?mibextid=wwXIfrhttps://www.facebook.com/share/1A3zsrzVpQ/?mibextid=wwXIfr"
+      },
+      {
+        "url": "https://www.instagram.com/al_awaisheh_mobile?igsh=MXVvZmRudTRvZmF2Mw=="
+      },
+      {
+        "url": "https://wa.me/+962788600090"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Mobile SMS",
+        "url": "sms:+962788600090?body=Hi!%20I%20have%20a%20question.",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://maps.app.goo.gl/AZAL6tpgaZ1hCXde7?g_st=ipc",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile (Persional)",
+        "url": "tel:+962788600090",
+        "style": "primary",
+        "center": true
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile (Work)",
+        "url": "tel:+962788600090",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  }
+}
