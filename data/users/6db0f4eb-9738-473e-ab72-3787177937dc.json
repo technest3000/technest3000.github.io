@@ -1,0 +1,47 @@
+{
+  "uid": "6db0f4eb-9738-473e-ab72-3787177937dc",
+  "template_id": "template-2-no-bg",
+  "title": "Nay Accessories",
+  "about": "Unique accessories that add a special touch to your beauty and complete your look with elegance.",
+  "phone": "+962 782008300",
+  "logo_url": "assets/images/6db0f4eb-9738-473e-ab72-3787177937dc.jpg",
+  "header_url": "https://lipsum.app/id/24/1600x900",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/1D1oqJFF9o/"
+      },
+      {
+        "url": "https://www.instagram.com/nay.accessories.jo?igsh=ZHl2d3RvZnBrczE3"
+      },
+      {
+        "url": "https://wa.me/+962782008300"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-star",
+        "text": "Review Us",
+        "url": "#",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://maps.app.goo.gl/8P3cNBiMmwjMPYX36",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962782008300",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  }
+}
