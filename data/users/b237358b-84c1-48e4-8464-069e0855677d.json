@@ -1,0 +1,46 @@
+{
+  "uid": "b237358b-84c1-48e4-8464-069e0855677d",
+  "template_id": "template-2-no-bg",
+  "title": "Abdeen Mobile",
+  "about": "At Abdeen Mobile, our mission is to provide you with the latest and most advanced mobile phone technology and accessories.",
+  "phone": "+962 795533377",
+  "logo_url": "assets/images/b237358b-84c1-48e4-8464-069e0855677d.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/1F6aeCBPh7/?mibextid=wwXIfr"
+      },
+      {
+        "url": "https://www.instagram.com/abdeen.mobile?igsh=MTd2Z3pwaHByYXprMA=="
+      },
+      {
+        "url": "https://wa.me/+962795533377"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-star",
+        "text": "Review Us",
+        "url": "https://www.google.com/search?client=ms-android-transsion&sca_esv=490573eed39ba66d&sxsrf=AE3TifMiaAyIFhd_-NU-iwn-Xh-mXCnaWA:1761839267159&q=%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA+%D8%AD%D9%88%D9%84+%D8%B9%D8%A7%D8%A8%D8%AF%D9%8A%D9%86+%D8%B9%D9%85%D9%91%D8%A7%D9%86&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E_69CHW4271b8E6BvdyqQsigWcymUtWi-CyfyVkFerBhhB_wdb1kYTrhEBRzNszHmLAaCocPXmOXvwVWTKrOfmDU5Z-jmuaq8TEiSo68ydiFotGXSIQcY3WaM2iHTaVXdS1C2i8%3D&sa=X&sqi=2&ved=2ahUKEwj9n67dosyQAxW8UqQEHQFeFU0Q9qsLegQIFhAG&biw=360&bih=688&dpr=3#ebo=1",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://maps.app.goo.gl/fTNTLFMSMCFxrJUR9",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962795533377",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  }
+}
