@@ -8,7 +8,8 @@ const userFiles = [
     '784a45e3-fe0c-4650-89a6-0172ec6b40a4.json',
     '6db0f4eb-9738-473e-ab72-3787177937dc.json',
     '9514ca22-f32e-41be-9586-686fc82b36d8.json',
-    'b237358b-84c1-48e4-8464-069e0855677d.json'
+    'b237358b-84c1-48e4-8464-069e0855677d.json',
+    'f73e3fd6-52e9-498f-9641-283c56666c17.json',
 ];
 
 const userTemplateFiles = [

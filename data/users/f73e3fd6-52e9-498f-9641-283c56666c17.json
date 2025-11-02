@@ -1,0 +1,48 @@
+{
+  "uid": "f73e3fd6-52e9-498f-9641-283c56666c17",
+  "template_id": "template-2",
+  "title": "Ramallah Embroidery",
+  "about": "We always strive to be the ideal destination for every woman seeking elegance and distinction blended with the richness of Palestinian heritage in the world of fashion.",
+  "phone": "+962 790028181",
+  "logo_url": "assets/images/f73e3fd6-52e9-498f-9641-283c56666c17-1.jpg",
+  "header_url": "assets/images/f73e3fd6-52e9-498f-9641-283c56666c17-2.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/1DWU5wRaxN/?mibextid=wwXIfr"
+      },
+      {
+        "url": "https://www.instagram.com/ramallah_embroidery1?igsh=bmc1OXd0YmRndzhp&utm_source=qr"
+      },
+      {
+        "url": "https://wa.me/+962790028181"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Mobile SMS",
+        "url": "sms:+962790028181?body=Hi!%20I%20have%20a%20question.",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://maps.app.goo.gl/CmkNJrc1LjBFPL5E9?g_st=iw",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962790028181",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  },
+  "createdAt": "2025-11-01T12:46:35.465Z"
+}
