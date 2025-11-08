@@ -3,13 +3,26 @@ document.addEventListener('DOMContentLoaded', async () => {
   const sidebar = document.getElementById('sidebar');
   const sidebarToggle = document.getElementById('sidebar-toggle');
 
-  // Detect environment
   const baseUrl = window.location.origin;
 
-  for (const userFile of userFiles) {
+  // Load all user data first
+  const usersData = await Promise.all(userFiles.map(async (userFile) => {
     const userId = userFile.replace('.json', '');
     const response = await fetch(`../data/users/${userFile}`);
     const userData = await response.json();
+    const createdAt = userData.createdAt ? new Date(userData.createdAt) : null;
+    return { userId, userFile, userData, createdAt };
+  }));
+
+  // Sort by createdAt descending (most recent first)
+  usersData.sort((a, b) => {
+    if (!a.createdAt) return 1;
+    if (!b.createdAt) return -1;
+    return b.createdAt - a.createdAt;
+  });
+
+  // Render cards
+  for (const { userId, userData } of usersData) {
     const title = userData.title || 'Untitled';
     const createdAt = userData.createdAt ? new Date(userData.createdAt).toLocaleDateString() : 'N/A';
     const previewUrl = `${baseUrl}/?user-id=${userId}`;

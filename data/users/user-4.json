@@ -4,7 +4,6 @@
   "title": "Mohamad Aboud",
   "about": "Full Stack Developer | DevOps | Cloud",
   "phone": "+962 786697846",
-  "email": "mohamadaboud663@gmail.com",
   "logo_url": "https://avatars.githubusercontent.com/u/103625927?v=4",
   "social_media_links": {
     "template_id": "social-v2",
@@ -24,9 +23,9 @@
     "template_id": "button-v2",
     "items": [
       {
-        "iconClass": "fa-solid fa-mobile-screen-button",
-        "text": "Call Mobile",
-        "url": "tel:+962786697846",
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Email",
+        "url": "mailto:mohamadaboud663@gmail.com",
         "style": "secondary"
       },
       {
@@ -42,12 +41,13 @@
         "style": "secondary"
       },
       {
-        "iconClass": "fa-solid fa-paper-plane",
-        "text": "Message",
-        "url": "mailto:mohamadaboud663@gmail.com",
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962786697846",
         "style": "primary",
         "center": true
       }
     ]
-  }
+  },
+  "createdAt": "2025-10-20T00:00:00.000Z"
 }

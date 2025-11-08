@@ -4,7 +4,6 @@
   "title": "Mohamad Aboud",
   "about": "Full Stack Developer and TechNest | DevOps | Cloud",
   "phone": "+962 786697846",
-  "email": "mohamadaboud663@gmail.com",
   "logo_url": "https://avatars.githubusercontent.com/u/103625927?v=4",
   "social_media_links": {
     "template_id": "social-v2",
@@ -36,5 +35,6 @@
         "style": "secondary"
       }
     ]
-  }
+  },
+  "createdAt": "2025-10-20T00:00:00.000Z"
 }

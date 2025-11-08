@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     cardBody.className = 'p-4 space-y-2';
     cardBody.innerHTML = `
       <h3 class="text-lg font-bold text-gray-800 flex items-center">
-        <i class="fas fa-file-alt text-primary mr-2"></i> ${title}
+        <i class="far fa-id-card mr-2 text-gray-500"></i> ${userId}
       </h3>
       <p class="text-sm text-gray-600 flex items-center">
         <i class="far fa-calendar-alt mr-2 text-gray-500"></i> ${createdAt}
