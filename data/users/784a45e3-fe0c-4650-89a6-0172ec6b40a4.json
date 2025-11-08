@@ -15,7 +15,12 @@
         "url": "https://www.instagram.com/al_awaisheh_mobile?igsh=MXVvZmRudTRvZmF2Mw=="
       },
       {
-        "url": "https://wa.me/+962788600090"
+        "url": "https://wa.me/+962788600090",
+        "name": "Business"
+      },
+      {
+        "url": "https://wa.me/+962796221896",
+        "name": "Personal"
       }
     ]
   },
@@ -23,21 +28,27 @@
     "template_id": "button-v2",
     "items": [
       {
-        "iconClass": "fa-solid fa-paper-plane",
-        "text": "Mobile SMS",
-        "url": "sms:+962788600090?body=Hi!%20I%20have%20a%20question.",
-        "style": "secondary"
-      },
-      {
         "iconClass": "fa-solid fa-map-marker-alt",
         "text": "Location on Map",
         "url": "https://maps.app.goo.gl/AZAL6tpgaZ1hCXde7?g_st=ipc",
         "style": "secondary"
       },
       {
+        "iconClass": "fa-solid fa-star",
+        "text": "Review Us",
+        "url": "https://www.google.com/search?client=ms-android-transsion&sca_esv=a28598c674b1d262&sxsrf=AE3TifMGOl5-UqJgWBoo2UTLHovwoJzDWw:1762448933306&q=%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA+%D8%AD%D9%88%D9%84+%D8%A7%D9%84%D8%B9%D9%88%D8%A7%D9%8A%D8%B4%D8%A9+%D9%85%D9%88%D8%A8%D8%A7%D9%8A%D9%84+%D8%B9%D9%85%D9%91%D8%A7%D9%86&uds=AOm0WdGfCwGo0ZC05ABwvYN97X4S6t4WoQYzZfI8gZW5gy3ZmYE1ovSGYbCgyUqaJBzJnQ5kaBX5XfKrrNtQCHTLH0Rib_LfF1HqT0EbnxSe0YjxGZ6f5cSQfYSUJjRph8lFrY0FseHVjdn9ICPmM3XYOcJXRe76vuUvE8ceKqqqFeKumv576HTdhYyEgxlWMVxGI1bZQjqAjdAaFnzoqYk9cELlMsv64vrtXos8lt9g8JA1pPdZUH1BgC9EuiPfk9jj_9Ed5CerJUrAohBhYMv07z4X9Yp1X8155B4RsD-oLBqOkYTzLpPxoivZ5cidWM5mzXUZev8GQUQbA06x6tyQx790JUre09a9Mq8B7bwvN3DhwYgTU2478Cdy_0TWk6JJXUgoiByBDpLbqIiivZn7VIfh-RiUavBL6_xn2SnIH5nqM7sHRbZUTOK8k1EoOUSVkVNVCWE899_lQG7QoaeTB0DUWy5Vhg&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E8_-kQ7sZSud5xhk-6ED_WzM0lJ7VQKa3PE46sx-c4OeVEB4aUJnGo6_EvOzS-8C7pZxStoth8Y3ruj8fmul4qhXUswb7Ril_h1QybCh5kr9Mfidapbx3THkKd5FQ_24OFGqdZxItkPEf7D0KWylqfsInhm4&sa=X&sqi=2&ved=2ahUKEwjM3ur0gd6QAxWPBdsEHdNULGcQk8gLegQIGxAB&ictx=1&biw=360&bih=744&dpr=3#ebo=1",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-paper-plane",
+        "text": "Mobile SMS",
+        "url": "sms:+962788600090?body=Hi!%20I%20have%20a%20question.",
+        "style": "secondary"
+      },
+      {
         "iconClass": "fa-solid fa-mobile-screen-button",
         "text": "Call Mobile (Persional)",
-        "url": "tel:+962788600090",
+        "url": "tel:+962796221896",
         "style": "primary",
         "center": true
       },
