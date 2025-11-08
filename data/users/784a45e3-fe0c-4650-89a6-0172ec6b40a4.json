@@ -54,7 +54,7 @@
       },
       {
         "iconClass": "fa-solid fa-mobile-screen-button",
-        "text": "Call Mobile (Work)",
+        "text": "Call Mobile (Business)",
         "url": "tel:+962788600090",
         "style": "primary",
         "center": true
