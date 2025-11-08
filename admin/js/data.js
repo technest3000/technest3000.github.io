@@ -10,6 +10,7 @@ const userFiles = [
     '9514ca22-f32e-41be-9586-686fc82b36d8.json',
     'b237358b-84c1-48e4-8464-069e0855677d.json',
     'f73e3fd6-52e9-498f-9641-283c56666c17.json',
+    'fb5e5321-5a65-4317-8bae-32504561168e.json'
 ];
 
 const userTemplateFiles = [

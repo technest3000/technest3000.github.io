@@ -1,0 +1,47 @@
+{
+  "uid": "fb5e5321-5a65-4317-8bae-32504561168e",
+  "template_id": "template-2-no-bg",
+  "title": "T5",
+  "about": "Exclusive agent for shaving machines in Jordan",
+  "phone": "+962 797580075",
+  "logo_url": "assets/images/fb5e5321-5a65-4317-8bae-32504561168e.jpg",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/19rD1gkgHv/?mibextid=wwXIfr"
+      },
+      {
+        "url": "https://www.instagram.com/t.5store?igsh=bDFlMWs2dXZvM3Jn&utm_source=qr"
+      },
+      {
+        "url": "https://wa.me/+962797580075"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "button-v2",
+    "items": [
+      {
+        "iconClass": "fa-solid fa-star",
+        "text": "Review Us",
+        "url": "https://www.google.com/search?client=ms-android-transsion&sca_esv=99aa52ae0359ced5&sxsrf=AE3TifPytnWGLhfnmeLN7LlSGd3PiD5JAA:1762247312643&q=%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA+%D8%AD%D9%88%D9%84+%D9%86%D8%B6%D8%A7%D9%84%D9%83%D9%88+%D8%A7%D9%84%D9%81%D9%84%D8%A7%D8%AD+%D8%B3%D9%86%D8%AA%D8%B1.....%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D9%88%D8%A7%D8%AF+%D8%AA%D8%AC%D9%85%D9%8A%D9%84+%D8%B9%D9%85%D9%91%D8%A7%D9%86&uds=AOm0WdFC6RCcChI2L6vBQq4gPAfYeSFL6Vln6yYaus_mk8i0bJ3svWDJVHXDickzw__0SwInkNyG_Q97X2tQALMMq68d5QTpaaysXj__z6GBYno1MMPyvrarI-V4I5BlvXDoFUnv62vWOp6mDIC39xFyqug0IbkfJYHVXagMF8lt_1kXkwZsp1LNpg3NWUo28RGj0y2QetFYiwmvBYALuo5HHNQgpwcMaWK3-0GI3iWC1VvYqr5Ag1DYN8thjS6sT-mQIl26vtXPZHyAWWjr4au1bcmnvDyX9pSaJxCvUx44EMg3UsiHib22p8rfwQQPz1-M3FdoQAS6vjjtCQeyWrStvXLZSrIm85jK2xIL7kYHarGIZDi_vEXjHgypO810_MIDlMbjUkRiSiNoTdQROZ_xvrmi5MLdA2SG5RHT_2VaEv4FA-prQFuYQPUEW8PuvYoz3lnhyCMhev9oGUHTLlbe2rouWtwjT3M3GVxBKjyy86CCi25jJVJLet6SVcciKE0ONW93OYF9i0WSWQdrxK_WRq-qwroiMg&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E_fLCaMJulYkwFE6JiBs_52FvNzuYSzeRjJ2qq_OEIXSjyVDLrvQR_24aKo03EFJQaGeCrQyLe4sB6VadJCXE2ajnwZcDVL1UqMZsfZdC_SGqddjzItxtfvsBeVRXK7sAF1HWXccpog2XaT6qNc_88rUGuSGo-XvjJOGH9qkUum-cRIaa1uSEQHHxM5F1_IYLDDymHk%3D&sa=X&ved=2ahUKEwjgg87oktiQAxWgOfsDHaWyBsUQk8gLegQIGRAB&ictx=1#ebo=1",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-map-marker-alt",
+        "text": "Location on Map",
+        "url": "https://maps.app.goo.gl/KezKsLrbpsECvwFo9?g_st=ipc",
+        "style": "secondary"
+      },
+      {
+        "iconClass": "fa-solid fa-mobile-screen-button",
+        "text": "Call Mobile",
+        "url": "tel:+962797580075",
+        "style": "primary",
+        "center": true
+      }
+    ]
+  },
+  "createdAt": "2025-11-04T09:11:08.064Z"
+}
