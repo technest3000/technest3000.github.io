@@ -114,21 +114,6 @@ function renderTemplate(userData) {
   // Change the document title to "TechPort - <title> || <username>"
   const pageTitle = `TechPort - ${userData.title || userData.username}`;
   document.title = pageTitle;
-
-  // Update Open Graph meta tags
-  function updateMeta(property, content) {
-    let meta = document.querySelector(`meta[property='${property}']`);
-    if (!meta) {
-      meta = document.createElement('meta');
-      meta.setAttribute('property', property);
-      document.head.appendChild(meta);
-    }
-    meta.setAttribute('content', content);
-  }
-
-  updateMeta('og:title', pageTitle);
-  updateMeta('og:description', userData.about || `Check out ${userData.username} on TechPort.`);
-  updateMeta('og:image', userData.logo_url || 'assets/images/logo.ico');
 }
 
 
