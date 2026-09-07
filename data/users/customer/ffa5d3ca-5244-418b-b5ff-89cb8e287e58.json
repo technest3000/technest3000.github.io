@@ -1,0 +1,46 @@
+{
+  "uid": "ffa5d3ca-5244-418b-b5ff-89cb8e287e58",
+  "template_id": "template-2",
+  "title": "Dr.Rafiq Al-Bayari",
+  "about": "هدفنا رسم أجمل ابتسامة بأحدث الأجهزة والتقنيات👏",
+  "phone": "07 9941 8674",
+  "email": "",
+  "logo_url": "assets/images/ffa5d3ca-5244-418b-b5ff-89cb8e287e58-1.png",
+  "header_url": "assets/images/ffa5d3ca-5244-418b-b5ff-89cb8e287e58-2.png",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.instagram.com/rafiqalbayari22?stkn=MTJwZ3JydHZnYnAwcQ==",
+        "platform": "instagram"
+      },
+      {
+        "url": "https://wa.me/962799418674",
+        "platform": "whatsapp"
+      },
+      {
+        "url": "https://www.facebook.com/DrRafiqAlbayari/?locale=ar_AR",
+        "platform": "facebook"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "default",
+    "items": [
+      {
+        "text": "موقع العيادة",
+        "url": "https://share.google/KkL9aIuDcTWb1HfMA",
+        "style": "secondary",
+        "iconClass": "fa-solid fa-map-marker-alt"
+      },
+      {
+        "text": "تواصل معنا",
+        "url": "tel:+962799418674",
+        "style": "secondary",
+        "iconClass": "fa-solid fa-phone"
+      }
+    ]
+  },
+  "active": true,
+  "createdAt": "2026-08-23T17:06:23.865Z"
+}
