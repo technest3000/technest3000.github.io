@@ -1,0 +1,46 @@
+{
+  "uid": "53d4d16b-bd20-4f79-bb04-81d1476e60d8",
+  "template_id": "template-4",
+  "title": "You & Me Cosmetics",
+  "about": "هنا تبدأ حكاية جمالك...\nمن رائحة تعبّر عن شخصيتك\nإلى لمسة ترطيب تمنحك إحساسًا بالانتعاش والثقة ",
+  "phone": "+962 7 7726 0622",
+  "email": "youme.work20@gmail.com",
+  "logo_url": "assets/images/53d4d16b-bd20-4f79-bb04-81d1476e60d8.jpeg",
+  "header_url": "",
+  "social_media_links": {
+    "template_id": "social-v2",
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/18Z8hgzXoq/",
+        "platform": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/youme.cosmetics?stkn=MXZiNzV3cHI5N3dr",
+        "platform": "instagram"
+      },
+      {
+        "url": "https://wa.me/962777260622",
+        "platform": "whatsapp"
+      }
+    ]
+  },
+  "buttons": {
+    "template_id": "default",
+    "items": [
+      {
+        "text": "زر موقعنا",
+        "url": "https://you-and-me-cosmetics.netlify.app/",
+        "style": "primary",
+        "iconClass": "fa-solid fa-globe"
+      },
+      {
+        "text": "تواصل معنا ",
+        "url": "tel:+962777260622",
+        "style": "primary",
+        "iconClass": "fa-solid fa-phone"
+      }
+    ]
+  },
+  "active": true,
+  "createdAt": "2026-10-04T17:16:06.219Z"
+}
