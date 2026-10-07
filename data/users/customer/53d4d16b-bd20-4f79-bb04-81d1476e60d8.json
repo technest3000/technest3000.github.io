@@ -28,10 +28,16 @@
     "template_id": "default",
     "items": [
       {
-        "text": "زر موقعنا",
+        "text": "متجر البيع",
         "url": "https://you-and-me-cosmetics.netlify.app/",
         "style": "primary",
         "iconClass": "fa-solid fa-globe"
+      },
+      {
+        "text": "Email",
+        "url": "mailto:youme.work20@gmail.com",
+        "style": "secondary",
+        "iconClass": "fa-solid fa-envelope"
       },
       {
         "text": "تواصل معنا ",
